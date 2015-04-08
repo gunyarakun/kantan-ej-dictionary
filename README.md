@@ -60,7 +60,9 @@
   - 誤りの全ては修正できていません
 - 半角カナの削除
 - アルクによるSVLレベルの付与
-  - 過去形、過去分詞形は同一形が存在すればそのレベルを、存在しなければ基本原型のレベルを付与した。ただしpent: [penの過去・過去分詞形]などはレベルを付与していない。
+  - 過去形、過去分詞形は同一形が存在すればそのレベルを、存在しなければ基本原型のレベルを付与した
+  - 例外: pent: [penの過去・過去分詞形]などはレベルを付与していない。
+  - 例外: givenについてはSVLレベル7だが、giveの過去分詞形として捉えてレベル1とした
 
 元となった辞典をHTMLからTSVファイルに変換したものは、[sources/ancdic.tsv](sources/ancdic.tsv)に格納してあります。
 また、ANCの頻度順辞書も[sources/ANC-all-count.txt](sources/ANC-all-count.txt), [sources/ANC-spoken-count.txt](sources/ANC-spoken-count.txt), [sources/ANC-written-count.txt](sources/ANC-written-count.txt)に格納してあります。
