@@ -1,0 +1,9 @@
+# Editor
+*~
+.*.sw[a-z]
+
+# Windows
+Thumbs.db
+
+# Mac OS X
+.DS_Store
