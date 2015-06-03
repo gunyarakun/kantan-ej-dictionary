@@ -7,7 +7,8 @@ top_level_path = `git rev-parse --show-toplevel`.chomp
 
 err = false
 begin
-  JSON.parse(IO.read(File.join(top_level_path, 'kantan-ej-dictionary.json')))
+  path = File.join(top_level_path, 'kantan-ej-dictionary.json')
+  JSON.parse(IO.read(path, :encoding => 'utf-8'))
 rescue => e
   puts "Cannot parse kantan-ej-dictionary.json"
   err = true
