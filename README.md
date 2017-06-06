@@ -67,7 +67,7 @@
   - 例外: pent: [penの過去・過去分詞形]などはレベルを付与していない。
   - 例外: givenについてはSVLレベル7だが、giveの過去分詞形として捉えてレベル1とした
   - 例外: gottaなど、複合動詞の短縮形などは、動詞のレベルを付与した
-  - 例外: thなどの頻出語で、レベル1相当と思われるものは、レベル1を付与した
+  - 例外: theなどの頻出語で、レベル1相当と思われるものは、レベル1を付与した
 
 元となった辞典をHTMLからTSVファイルに変換したものは、[sources/ancdic.tsv](sources/ancdic.tsv)に格納してあります。
 また、ANCの頻度順辞書も[sources/ANC-all-count.txt](sources/ANC-all-count.txt), [sources/ANC-spoken-count.txt](sources/ANC-spoken-count.txt), [sources/ANC-written-count.txt](sources/ANC-written-count.txt)に格納してあります。
